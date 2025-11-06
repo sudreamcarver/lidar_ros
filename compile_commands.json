@@ -1,0 +1,76 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-c",
+            "-v",
+            "-o",
+            "CMakeFiles/cmTC_11fe0.dir/CMakeCXXCompilerABI.cpp.o",
+            "../../../../../usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+        ],
+        "directory": "/root/laser_ws/build/CMakeFiles/CMakeTmp",
+        "file": "../../../../../usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+    },
+    {
+        "arguments": [
+            "/usr/bin/cc",
+            "-c",
+            "-DCHECK_FUNCTION_EXISTS=pthread_create",
+            "-o",
+            "CMakeFiles/cmTC_ad0f0.dir/CheckFunctionExists.c.o",
+            "../../../../../usr/share/cmake-3.16/Modules/CheckFunctionExists.c"
+        ],
+        "directory": "/root/laser_ws/build/CMakeFiles/CMakeTmp",
+        "file": "../../../../../usr/share/cmake-3.16/Modules/CheckFunctionExists.c"
+    },
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-c",
+            "CMakeCXXCompilerId.cpp"
+        ],
+        "directory": "/root/laser_ws/build/CMakeFiles/3.16.3/CompilerIdCXX",
+        "file": "CMakeCXXCompilerId.cpp"
+    },
+    {
+        "arguments": [
+            "/usr/bin/cc",
+            "-c",
+            "CMakeCCompilerId.c"
+        ],
+        "directory": "/root/laser_ws/build/CMakeFiles/3.16.3/CompilerIdC",
+        "file": "CMakeCCompilerId.c"
+    },
+    {
+        "arguments": [
+            "/usr/bin/c++",
+            "-c",
+            "-DBOOST_ALL_NO_LIB",
+            "-DBOOST_ATOMIC_DYN_LINK",
+            "-DBOOST_THREAD_DYN_LINK",
+            "-DROSCONSOLE_BACKEND_LOG4CXX",
+            "-DROS_BUILD_SHARED_LIBS=1",
+            "-DROS_PACKAGE_NAME=\"lidar_pkg\"",
+            "-I/opt/ros/noetic/include",
+            "-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp",
+            "-I/root/laser_ws/src/lidar_pkg/Boost::thread",
+            "-o",
+            "CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o",
+            "../../src/lidar_pkg/src/lidar_driver.cpp"
+        ],
+        "directory": "/root/laser_ws/build/lidar_pkg",
+        "file": "../../src/lidar_pkg/src/lidar_driver.cpp"
+    },
+    {
+        "arguments": [
+            "/usr/bin/cc",
+            "-c",
+            "-v",
+            "-o",
+            "CMakeFiles/cmTC_87d5e.dir/CMakeCCompilerABI.c.o",
+            "../../../../../usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
+        ],
+        "directory": "/root/laser_ws/build/CMakeFiles/CMakeTmp",
+        "file": "../../../../../usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
+    }
+]

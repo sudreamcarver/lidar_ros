@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/laser_ws/install/setup.sh
