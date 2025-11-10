@@ -732,12 +732,18 @@ vector
 time.h
 -
 
-/root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp
+/root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp
+ros/init.h
+/root/lidar_ws/src/lidar_pkg/src/ros/init.h
+ros/node_handle.h
+/root/lidar_ws/src/lidar_pkg/src/ros/node_handle.h
 algorithm
 -
 boost/thread.hpp
 -
 cmath
+-
+exception
 -
 ros/ros.h
 -
@@ -746,6 +752,10 @@ sensor_msgs/LaserScan.h
 serial/serial.h
 -
 sstream
+-
+stdexcept
+-
+string
 -
 vector
 -

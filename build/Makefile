@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/laser_ws/src
+CMAKE_SOURCE_DIR = /root/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/laser_ws/build
+CMAKE_BINARY_DIR = /root/lidar_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/laser_ws/build/CMakeFiles /root/laser_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lidar_ws/build/CMakeFiles /root/lidar_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/laser_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lidar_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

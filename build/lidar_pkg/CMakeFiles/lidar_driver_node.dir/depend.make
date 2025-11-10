@@ -63,5 +63,5 @@ lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /opt/ros/noet
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /opt/ros/noetic/include/std_msgs/Header.h
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
-lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp
+lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp
 

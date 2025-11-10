@@ -1,4 +1,4 @@
-prefix=/root/laser_ws/devel
+prefix=/root/lidar_ws/devel
 
 Name: lidar_pkg
 Description: Description of lidar_pkg

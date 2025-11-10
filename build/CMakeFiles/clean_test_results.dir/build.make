@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/laser_ws/src
+CMAKE_SOURCE_DIR = /root/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/laser_ws/build
+CMAKE_BINARY_DIR = /root/lidar_ws/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/laser_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /root/laser_ws/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /root/lidar_ws/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /root/laser_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/laser_ws/src /root/laser_ws/src /root/laser_ws/build /root/laser_ws/build /root/laser_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lidar_ws/src /root/lidar_ws/src /root/lidar_ws/build /root/lidar_ws/build /root/lidar_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

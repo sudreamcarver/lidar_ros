@@ -1,4 +1,4 @@
-prefix=/root/laser_ws/install
+prefix=/root/lidar_ws/install
 
 Name: lidar_pkg
 Description: Description of lidar_pkg

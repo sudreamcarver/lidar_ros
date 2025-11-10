@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node"
-  "/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node.pdb"
+  "/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node"
+  "/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node.pdb"
   "CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/laser_ws/src
+CMAKE_SOURCE_DIR = /root/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/laser_ws/build
+CMAKE_BINARY_DIR = /root/lidar_ws/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /root/laser_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/laser_ws/src /root/laser_ws/src /root/laser_ws/build /root/laser_ws/build /root/laser_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lidar_ws/src /root/lidar_ws/src /root/lidar_ws/build /root/lidar_ws/build /root/lidar_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp" "/root/laser_ws/build/lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o"
+  "/root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp" "/root/lidar_ws/build/lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/root/laser_ws/src/lidar_pkg/Boost::thread"
+  "/root/lidar_ws/src/lidar_pkg/Boost::thread"
   )
 
 # Targets to which this target links.

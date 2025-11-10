@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/root/laser_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/root/laser_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/root/laser_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/root/laser_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/root/lidar_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/root/lidar_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/root/lidar_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/root/lidar_ws/src:$ROS_PACKAGE_PATH"

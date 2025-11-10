@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /root/laser_ws/src
-# Build directory: /root/laser_ws/build
+# Source directory: /root/lidar_ws/src
+# Build directory: /root/lidar_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

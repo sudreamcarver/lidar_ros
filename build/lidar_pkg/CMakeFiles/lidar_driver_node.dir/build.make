@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/laser_ws/src
+CMAKE_SOURCE_DIR = /root/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/laser_ws/build
+CMAKE_BINARY_DIR = /root/lidar_ws/build
 
 # Include any dependencies generated for this target.
 include lidar_pkg/CMakeFiles/lidar_driver_node.dir/depend.make
@@ -58,17 +58,17 @@ include lidar_pkg/CMakeFiles/lidar_driver_node.dir/progress.make
 include lidar_pkg/CMakeFiles/lidar_driver_node.dir/flags.make
 
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: lidar_pkg/CMakeFiles/lidar_driver_node.dir/flags.make
-lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/laser_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o"
-	cd /root/laser_ws/build/lidar_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o -c /root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp
+lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o: /root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o"
+	cd /root/lidar_ws/build/lidar_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o -c /root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp
 
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.i"
-	cd /root/laser_ws/build/lidar_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.i
+	cd /root/lidar_ws/build/lidar_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.i
 
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.s"
-	cd /root/laser_ws/build/lidar_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/laser_ws/src/lidar_pkg/src/lidar_driver.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.s
+	cd /root/lidar_ws/build/lidar_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/lidar_ws/src/lidar_pkg/src/lidar_driver.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.s
 
 # Object files for target lidar_driver_node
 lidar_driver_node_OBJECTS = \
@@ -77,42 +77,42 @@ lidar_driver_node_OBJECTS = \
 # External object files for target lidar_driver_node
 lidar_driver_node_EXTERNAL_OBJECTS =
 
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/build.make
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libserial.so
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
-/root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/laser_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node"
-	cd /root/laser_ws/build/lidar_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/src/lidar_driver.cpp.o
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/build.make
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libroscpp.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/librostime.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libcpp_common.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /opt/ros/noetic/lib/libserial.so
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+/root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node: lidar_pkg/CMakeFiles/lidar_driver_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/lidar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node"
+	cd /root/lidar_ws/build/lidar_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lidar_pkg/CMakeFiles/lidar_driver_node.dir/build: /root/laser_ws/devel/lib/lidar_pkg/lidar_driver_node
+lidar_pkg/CMakeFiles/lidar_driver_node.dir/build: /root/lidar_ws/devel/lib/lidar_pkg/lidar_driver_node
 
 .PHONY : lidar_pkg/CMakeFiles/lidar_driver_node.dir/build
 
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/clean:
-	cd /root/laser_ws/build/lidar_pkg && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
+	cd /root/lidar_ws/build/lidar_pkg && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
 .PHONY : lidar_pkg/CMakeFiles/lidar_driver_node.dir/clean
 
 lidar_pkg/CMakeFiles/lidar_driver_node.dir/depend:
-	cd /root/laser_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/laser_ws/src /root/laser_ws/src/lidar_pkg /root/laser_ws/build /root/laser_ws/build/lidar_pkg /root/laser_ws/build/lidar_pkg/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lidar_ws/src /root/lidar_ws/src/lidar_pkg /root/lidar_ws/build /root/lidar_ws/build/lidar_pkg /root/lidar_ws/build/lidar_pkg/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lidar_pkg/CMakeFiles/lidar_driver_node.dir/depend
 

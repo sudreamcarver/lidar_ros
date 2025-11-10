@@ -1,8 +1,8 @@
-# Install script for directory: /root/laser_ws/src
+# Install script for directory: /root/lidar_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/laser_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/root/lidar_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,104 +49,104 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/_setup_util.py")
+   "/root/lidar_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE PROGRAM FILES "/root/laser_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE PROGRAM FILES "/root/lidar_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/env.sh")
+   "/root/lidar_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE PROGRAM FILES "/root/laser_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE PROGRAM FILES "/root/lidar_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/setup.bash;/root/laser_ws/install/local_setup.bash")
+   "/root/lidar_ws/install/setup.bash;/root/lidar_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE FILE FILES
-    "/root/laser_ws/build/catkin_generated/installspace/setup.bash"
-    "/root/laser_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE FILE FILES
+    "/root/lidar_ws/build/catkin_generated/installspace/setup.bash"
+    "/root/lidar_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/setup.sh;/root/laser_ws/install/local_setup.sh")
+   "/root/lidar_ws/install/setup.sh;/root/lidar_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE FILE FILES
-    "/root/laser_ws/build/catkin_generated/installspace/setup.sh"
-    "/root/laser_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE FILE FILES
+    "/root/lidar_ws/build/catkin_generated/installspace/setup.sh"
+    "/root/lidar_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/setup.zsh;/root/laser_ws/install/local_setup.zsh")
+   "/root/lidar_ws/install/setup.zsh;/root/lidar_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE FILE FILES
-    "/root/laser_ws/build/catkin_generated/installspace/setup.zsh"
-    "/root/laser_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE FILE FILES
+    "/root/lidar_ws/build/catkin_generated/installspace/setup.zsh"
+    "/root/lidar_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/setup.fish;/root/laser_ws/install/local_setup.fish")
+   "/root/lidar_ws/install/setup.fish;/root/lidar_ws/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE FILE FILES
-    "/root/laser_ws/build/catkin_generated/installspace/setup.fish"
-    "/root/laser_ws/build/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE FILE FILES
+    "/root/lidar_ws/build/catkin_generated/installspace/setup.fish"
+    "/root/lidar_ws/build/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/laser_ws/install/.rosinstall")
+   "/root/lidar_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/laser_ws/install" TYPE FILE FILES "/root/laser_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/root/lidar_ws/install" TYPE FILE FILES "/root/lidar_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/laser_ws/build/gtest/cmake_install.cmake")
-  include("/root/laser_ws/build/lidar_pkg/cmake_install.cmake")
+  include("/root/lidar_ws/build/gtest/cmake_install.cmake")
+  include("/root/lidar_ws/build/lidar_pkg/cmake_install.cmake")
 
 endif()
 
@@ -158,5 +158,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/laser_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/lidar_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

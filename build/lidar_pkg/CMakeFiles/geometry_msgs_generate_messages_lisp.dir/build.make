@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/laser_ws/src
+CMAKE_SOURCE_DIR = /root/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/laser_ws/build
+CMAKE_BINARY_DIR = /root/lidar_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build: geometry_ms
 .PHONY : lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 
 lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	cd /root/laser_ws/build/lidar_pkg && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /root/lidar_ws/build/lidar_pkg && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /root/laser_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/laser_ws/src /root/laser_ws/src/lidar_pkg /root/laser_ws/build /root/laser_ws/build/lidar_pkg /root/laser_ws/build/lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/lidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/lidar_ws/src /root/lidar_ws/src/lidar_pkg /root/lidar_ws/build /root/lidar_ws/build/lidar_pkg /root/lidar_ws/build/lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lidar_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 

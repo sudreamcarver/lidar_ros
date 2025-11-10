@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /root/laser_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /root/lidar_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a2109/fast && /usr/bin/make -f CMakeFiles/cmTC_a2109.dir/build.make CMakeFiles/cmTC_a2109.dir/build
-make[1]: Entering directory '/root/laser_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2109.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a2109.dir/src.c.o   -c /root/laser_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a2109
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2109.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a2109.dir/src.c.o  -o cmTC_a2109 
-/usr/bin/ld: CMakeFiles/cmTC_a2109.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_6b240/fast && /usr/bin/make -f CMakeFiles/cmTC_6b240.dir/build.make CMakeFiles/cmTC_6b240.dir/build
+make[1]: Entering directory '/root/lidar_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b240.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6b240.dir/src.c.o   -c /root/lidar_ws/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6b240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b240.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_6b240.dir/src.c.o  -o cmTC_6b240 
+/usr/bin/ld: CMakeFiles/cmTC_6b240.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a2109.dir/build.make:87: cmTC_a2109] Error 1
-make[1]: Leaving directory '/root/laser_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a2109/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6b240.dir/build.make:87: cmTC_6b240] Error 1
+make[1]: Leaving directory '/root/lidar_ws/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6b240/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /root/laser_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /root/lidar_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ad0f0/fast && /usr/bin/make -f CMakeFiles/cmTC_ad0f0.dir/build.make CMakeFiles/cmTC_ad0f0.dir/build
-make[1]: Entering directory '/root/laser_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ad0f0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ad0f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ad0f0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad0f0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ad0f0.dir/CheckFunctionExists.c.o  -o cmTC_ad0f0  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_ad8b3/fast && /usr/bin/make -f CMakeFiles/cmTC_ad8b3.dir/build.make CMakeFiles/cmTC_ad8b3.dir/build
+make[1]: Entering directory '/root/lidar_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad8b3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ad8b3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad8b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad8b3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ad8b3.dir/CheckFunctionExists.c.o  -o cmTC_ad8b3  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ad0f0.dir/build.make:87: cmTC_ad0f0] Error 1
-make[1]: Leaving directory '/root/laser_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ad0f0/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ad8b3.dir/build.make:87: cmTC_ad8b3] Error 1
+make[1]: Leaving directory '/root/lidar_ws/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ad8b3/fast] Error 2
 
 
 

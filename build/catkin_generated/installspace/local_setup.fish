@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /root/laser_ws/install
+    set _CATKIN_SETUP_DIR /root/lidar_ws/install
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"
