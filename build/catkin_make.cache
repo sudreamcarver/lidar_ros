@@ -1,2 +1,0 @@
-lidar_pkg
--DCATKIN_DEVEL_PREFIX=/root/lidar_ws/devel -DCMAKE_INSTALL_PREFIX=/root/lidar_ws/install -G Unix Makefiles
