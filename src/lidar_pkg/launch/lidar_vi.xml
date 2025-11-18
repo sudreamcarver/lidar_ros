@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="lidar_pkg" type="lidar_driver.py" name="lidar_raw_driver" output="screen" respawn="true" />
+    <node pkg="lidar_pkg" type="lidar_driver_node" name="lidar_driver_node" output="screen">
+
+        <param name="frame_id" value="laser_frame" />
+    </node>
+
+</launch>
